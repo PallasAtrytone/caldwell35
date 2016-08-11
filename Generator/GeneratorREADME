@@ -1,0 +1,10 @@
+This folder contains code for the generation of various "information" to be downloaded.
+Currently Files include:
+generate.cpp 
+generate.h
+main.cpp
+
+Things to be done:
+Create multiple,different random numbers per run
+Write to file until specified size
+
