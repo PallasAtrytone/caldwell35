@@ -1,7 +1,10 @@
 #include "Generate.h"
-
+#include <fstream>
 
 int main () {
+  std::ofstream file;
+  file.open("information.txt");
+
   time_t timer;
   unsigned seed = time(&timer);
   std::minstd_rand0 generator(seed);
@@ -18,8 +21,10 @@ for (int i = 0; i < 3; i ++) { //Testing for multiple random numbers
 
   full = cc_num + ' ' + exp;
 
+  file << full << std::endl;
   std::cout << full << std::endl;
 }
 
+  file.close();
 return 0;
 }

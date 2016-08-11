@@ -5,6 +5,6 @@ generate.h
 main.cpp
 
 Things to be done:
-Create multiple,different random numbers per run
-Write to file until specified size
+Increase finesse of output.
+Figure out how to write to specified size.
 
